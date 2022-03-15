@@ -24,7 +24,7 @@ namespace Tsystem_RepositoryDemo
             this.empSalary = eSal;
 
         }
-        public void calculateGrossSalary()
+        public void CalculateGrossSalary()
         {
             hra = empSalary * 0.40;
             da = empSalary * 0.20;
@@ -34,7 +34,7 @@ namespace Tsystem_RepositoryDemo
         }
         public override string ToString()
         { 
-            return " employee id is " + empId + " employee name is " + empName + " employee gross salary is " + grossSalary;
+            return "employee id is " + empId + "\nemployee name is " + empName + " \nemployee gross salary is " + grossSalary;
 
         }
 

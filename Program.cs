@@ -11,10 +11,11 @@ namespace Tsystem_RepositoryDemo
         static void Main(string[] args)
         {
             Employee obj = new Employee();
-            obj.calculateGrossSalary();
+            obj.CalculateGrossSalary();
             Console.WriteLine(obj);
+            Console.WriteLine("\n==========================================\n");
             Employee obj1 = new Employee(111, "rahul", 40000);
-            obj1.calculateGrossSalary();
+            obj1.CalculateGrossSalary();
             Console.WriteLine(obj1);
         }
     }
