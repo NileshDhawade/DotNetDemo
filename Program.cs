@@ -32,6 +32,18 @@ namespace Tsystem_RepositoryDemo
             sm.CalculateGrossSalary();
             Console.WriteLine(sm);
 
+            Console.WriteLine("\n============================================\n");
+            calculation_Overloading cal = new calculation_Overloading();
+            int add = cal.Addition(12, 14);
+            Console.WriteLine(add);
+
+            int add2=cal.Addition(11, 33, 22);
+            Console.WriteLine(add2);
+
+            int add3 = cal.Addition(22, 11);
+            Console.WriteLine(add3);
+
+
 
         }
     }
