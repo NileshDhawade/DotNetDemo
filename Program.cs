@@ -17,6 +17,22 @@ namespace Tsystem_RepositoryDemo
             Employee obj1 = new Employee(111, "rahul", 40000);
             obj1.CalculateGrossSalary();
             Console.WriteLine(obj1);
+            Console.WriteLine("\n=========================================\n");
+            Manager mn = new Manager();
+            mn.CalculateGrossSalary();
+            Console.WriteLine(mn);
+            Console.WriteLine("\n========================================\n");
+            Manager mn1 = new Manager(121, "ram", 45000, 1000, 2000);
+            mn1.CalculateGrossSalary();
+            Console.WriteLine(mn1);
+
+            Console.WriteLine("\n==========================================\n");
+
+            SalesManager sm = new SalesManager(444, "abhishek", 49000, 3000, 2000, 800);
+            sm.CalculateGrossSalary();
+            Console.WriteLine(sm);
+
+
         }
     }
 }
