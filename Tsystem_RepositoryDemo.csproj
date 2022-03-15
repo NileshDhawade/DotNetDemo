@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="calculation_Overloading.cs" />
+    <Compile Include="Calculation_StaticVariable.cs" />
     <Compile Include="Employee.cs" />
+    <Compile Include="Employee_StaticVariableAndMethod.cs" />
     <Compile Include="Manager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

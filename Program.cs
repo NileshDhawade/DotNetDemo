@@ -44,6 +44,22 @@ namespace Tsystem_RepositoryDemo
             Console.WriteLine(add3);
 
 
+            Console.WriteLine("\n==============================================\n");
+            Employee_StaticVariableAndMethod emp1 = new Employee_StaticVariableAndMethod("kirti",56000);
+            emp1.CalculateGrossSalary();
+            Console.WriteLine(emp1);
+
+            Employee_StaticVariableAndMethod emp2 = new Employee_StaticVariableAndMethod("Aaradhya", 57000);
+            emp2.CalculateGrossSalary();
+            Console.WriteLine(emp2);
+
+            Employee_StaticVariableAndMethod emp3 = new Employee_StaticVariableAndMethod("Sonali", 58000);
+            emp3.CalculateGrossSalary();
+            Console.WriteLine(emp3);
+            Console.WriteLine("\n==============================================\n");
+            Console.WriteLine(" total employees " + Employee_StaticVariableAndMethod.Getcount());
+
+
 
         }
     }
